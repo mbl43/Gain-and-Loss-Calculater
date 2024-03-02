@@ -1,0 +1,1 @@
+This web application is designed to help users calculate the percentage gain needed to recover their loss from buying and selling stocks. Users can input the buy price, quantity of stocks, and sell price, and the application will calculate whether they are calculating profit or loss and provide the necessary gain percentage to recover the loss.
