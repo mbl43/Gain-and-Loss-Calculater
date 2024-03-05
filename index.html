@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="60">
+    
     <title>Need a gain to recover your Loss</title>
 <link rel="stylesheet" href="style.css">     
    
@@ -16,7 +18,7 @@
            
            <!-- Label for quantity input -->
            <label for="quantity">Quantity Of Stock:</label>
-           <input   type="number"   class="quantity width_input" placeholder="Quantity of Stock" />
+           <input   type="number"  id="quantity" class="quantity width_input" placeholder="Quantity of Stock" />
            
            <!-- Label for sell price input -->
            <label for="sell-price">Sell Price Of Stock:</label>
@@ -24,12 +26,15 @@
         </div>
         <div class="button" style="margin-bottom: 15px;">
 
-            <button onclick="calc()">Calculate</button>
+            <button id="btn" onclick="calc()">Calculate</button>
             <button onclick="clearInputs()">Clear</button>
         </div>
         <div id="results"></div>
+        <div id="results2"></div>
          
        </div>
+
+       <a class="new-project-link" href="http://mbl43.github.io/stock-avg-calculator/">Stock Price Average Calculator</a>
        
   <script src="app.js"></script>
   </body>
